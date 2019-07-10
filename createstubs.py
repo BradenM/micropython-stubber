@@ -332,8 +332,6 @@ def main():
     stubber = Stubber()
     #stubber.add_modules(['xyz'])
     stubber.clean()
-    # limit for debugging
-    stubber.modules = ['machine']
     stubber.create_all_stubs()
     stubber.report()
 
