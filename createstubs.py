@@ -58,7 +58,7 @@ class Stubber():
                         'select', 'socket', 'socketupip', 'ssd1306', 'ssh', 'ssl', 'struct', 'sys', 'time', 'tpcalib', 'uasyncio', 'uasyncio/core', 'ubinascii',
                         'ucollections', 'ucryptolib', 'uctypes', 'uerrno', 'uhashlib', 'uheapq', 'uio', 'ujson', 'umqtt/robust', 'umqtt/simple', 'uos', 'upip_utarfile',
                         'upysh', 'urandom', 'ure', 'urequests', 'urllib/urequest', 'uselect', 'usocket', 'ussl', 'ustruct', 'utime', 'utimeq', 'uwebsocket', 'uzlib', 'webrepl',
-                        'webrepl_setup', 'websocket', 'websocket_helper', 'writer', 'ymodem', 'zlib']
+                        'webrepl_setup', 'websocket', 'websocket_helper', 'writer', 'ymodem', 'zlib', 'pycom', 'crypto']
 
         #try to avoid running out of memory with nested mods
         self.include_nested = gc.mem_free() > 3200
